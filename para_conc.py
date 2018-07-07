@@ -196,8 +196,8 @@ if __name__ == "__main__" :
 		proc_all('pair.list')
                 if os.path.exists('conc') != True:
                     os.system('mkdir conc')
-                print 'Now, moving AL/*.conc to conc/'
-                os.system("mv AL/*.conc conc/")
+                print 'Now, moving para/*.conc to conc/'
+                os.system("mv para/*.conc conc/")
 	except Exception, e:
 		print e
 		print 'usage: python %s pair_file_name'
