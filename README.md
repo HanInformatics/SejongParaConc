@@ -17,5 +17,7 @@ To run this,
 
 python para_conc.py
 
-After running there are sentence paired files under 'conc' directory which is created newly. 
-Voila. 
+After running it, there are sentence paired files under 'conc' directory which is created newly. 
+Voilà. 
+
+
