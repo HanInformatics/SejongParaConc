@@ -9,15 +9,26 @@ Korean English parallel corpus is composed of three types of files, ...AL.txt, .
 AL is for mapping sentence ids of Korean and English. 
 KK/KE is for Korean texts. Here KE means this text is originally Korean text and translated into English. 
 EE/EK is for English texts. Here EK means this text is originally English text and translated into Korean. 
-All three types of files must be 'para' directory. 
-And 'para.list' must be with 'para_conc.py' in the parent directory of 'para'. 
+In Sejong corpus CD, the directory of parallel corpus is like below. 
 
-para_conc.py works in Python2.
+CD1/02_말뭉치/병렬/한영병렬/한영병렬_말뭉치/형태분석_말뭉치/TXT
+
+All the files under the directory are encoded in 'utf-16'.
+
+To convert utf-16 to convert-8, run convert_16t08.py. It assumes 'TXT' directory you have in the current directory. 
+
+python convert_16t08.py
+
+After running it, All the files encoded with utf-8 are created under 'para' which is newly created. 
+So, all three types of files(...AL.txt, ...KK.txt, ...EE.txt) are under 'para' directory. 
+
+Now, we are going to make files of pair sentences. 
+And 'para.list' must be with 'para_conc.py' in the parent directory of 'para'. 
 To run this, 
 
 python para_conc.py
 
-After running it, there are sentence paired files under 'conc' directory which is created newly. 
+After running it, there are sentence paired files under 'conc' directory which is newly created. 
 Voilà. 
 
 Command 'ls' under 'conc'
