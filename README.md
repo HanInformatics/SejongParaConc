@@ -22,9 +22,7 @@ python convert_16t08.py
 After running it, All the files encoded with utf-8 are created under 'para' which is newly created. 
 So, all three types of files(...AL.txt, ...KK.txt, ...EE.txt) are under 'para' directory. 
 
-Now, we are going to make files of pair sentences. 
-And 'para.list' must be with 'para_conc.py' in the parent directory of 'para'. 
-To run this, 
+Now, we are going to make files of pair sentences. To do this, 'para_conc.py' must be with 'para.list' in the parent directory of 'para'. And then give a command below. 
 
 python para_conc.py
 
