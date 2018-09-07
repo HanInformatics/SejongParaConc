@@ -11,7 +11,7 @@ KK/KE is for Korean texts. Here KE means this text is originally Korean text and
 EE/EK is for English texts. Here EK means this text is originally English text and translated into Korean. 
 In Sejong corpus CD, the directory of parallel corpus is like below. 
 
-CD1/02_말뭉치/병렬/한영병렬/한영병렬_말뭉치/형태분석_말뭉치/**TXT
+CD1/02_말뭉치/병렬/한영병렬/한영병렬_말뭉치/형태분석_말뭉치/TXT
 
 All the files under the directory are encoded in 'utf-16'.
 
