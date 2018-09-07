@@ -15,7 +15,7 @@ CD1/02_말뭉치/병렬/한영병렬/한영병렬_말뭉치/형�
 
 All the files under the directory are encoded in 'utf-16'.
 
-To convert utf-16 to convert-8, run convert_16t08.py. It assumes 'TXT' directory you have in the current directory. 
+To convert utf-16 to convert-8, run convert_16t08.py. It assumes you have 'TXT' directory in the current directory. 
 
 python convert_16t08.py
 
