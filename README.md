@@ -18,6 +18,8 @@ All the files under the directory are encoded in 'utf-16'.
 To convert utf-16 to convert-8, run convert_16t08.py. It assumes you have 'TXT' directory in the current directory. 
 
 python convert_16t08.py
+or 
+python3 convert3_16to8.py
 
 After running it, All the files encoded with utf-8 are created under 'para' which is newly created. 
 So, all three types of files(...AL.txt, ...KK.txt, ...EE.txt) are under 'para' directory. 
